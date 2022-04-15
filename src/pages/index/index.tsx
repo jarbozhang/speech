@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { View, Text, Button } from "@tarojs/components";
 // import { useEnv, useNavigationBar, useModal, useToast } from "taro-hooks";
 import { requirePlugin } from "@tarojs/taro";
@@ -84,7 +84,7 @@ const Index = () => {
       )}
       <Button
         className="btn-grad"
-        hoverClass='selected'
+        hoverClass="selected"
         hoverStayTime={50}
         onTouchStart={() => {
           manager.start({ duration: 60000, lang: "en_US" });
