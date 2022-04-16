@@ -4,7 +4,7 @@
   "description": "",
   "appid": "wx67be6cb614b52e1d",
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": false,
     "enhance": false,
     "postcss": true,
