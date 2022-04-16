@@ -1,4 +1,4 @@
 export default {
-  navigationBarTitleText: 'speech recognition',
+  navigationBarTitleText: '朗读测试',
   enableShareAppMessage: true,
 };

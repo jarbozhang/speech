@@ -68,7 +68,7 @@ const Index = () => {
         {readExample.toLowerCase().replace(regExp, "")}
       </Text>
       <Divider /> */}
-      <Text className="desc">{speechText}</Text>
+      <Text className="desc">{speechText || '请长按下方按钮，朗读以上句子。'}</Text>
       {speechText && (
         <Text className="title">
           准确率:
