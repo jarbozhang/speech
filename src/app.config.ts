@@ -1,5 +1,5 @@
 export default {
-  pages: ["pages/zhiling/index"],
+  pages: ["pages/home/index"],
   window: {
     backgroundTextStyle: "light",
     navigationBarBackgroundColor: "#fff",

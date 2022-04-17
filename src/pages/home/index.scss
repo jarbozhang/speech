@@ -1,6 +1,6 @@
 page {
   background-color: white;
-  padding: 14px;
+  padding: 32px;
   box-sizing: border-box;
   color: #333;
 }
@@ -17,16 +17,38 @@ page {
   margin: 0 auto;
 }
 
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .title,
 .desc {
-  text-align: center;
+  // text-align: center;
   font-size: 32px;
+  display: inline;
+}
+
+.center {
+  text-align: center;
+}
+
+.title {
+  margin: 20px 0;
+  text-align: center;
 }
 
 .desc {
-  margin: 20px 0;
   font-size: 28px;
   color: rgba(0, 0, 0, 0.85);
+  margin-right: 10px;
+}
+
+.right {
+  color: #07c160;
+}
+.error {
+  color: #fa5151;
 }
 
 .list {
@@ -82,6 +104,18 @@ page {
     background-position: right center; /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
+    animation: fade 2000ms infinite;
+  }
+  @keyframes fade {
+    from {
+      background-position: right center;
+    }
+    50% {
+      background-position: left center;
+    }
+    to {
+      background-position: right center;
+    }
   }
 }
 
